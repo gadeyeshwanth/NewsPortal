@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="panel">
+            <div class="heading">
+                <h1><a>The </a>News Potal</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search for News Articles">
+                <a href="#" id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </div>
+    </header>
+    <div class="category-bar">
+        <a href="#" data-category="general">General</a>
+        <a href="#" data-category="business">Business</a>
+        <a href="#" data-category="technology">Technology</a>
+        <a href="#" data-category="sports">Sports</a>
+        <a href="#" data-category="entertainment">Entertainment</a>
+        <a href="#" data-category="health">Health</a>
+        <a href="#" data-category="science">Science</a>
+    </div>
+    <section id="random-articles-section">
+        <h2>Top News for You</h2>
+        <div id="random-articles" class="article-list">
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Gade Yeshwanth. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
